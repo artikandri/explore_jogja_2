@@ -32,7 +32,7 @@ class _AddReviewScreenState extends State<AddReviewScreen> {
       review = AccomodationReview(objectName: data.name, rating: _ratingValue, type: 2, comment: value["description"] ?? "", id: data.id);
     }
 
-    Provider.of<ReviewProvider>(context, listen: true).addReview(review);
+    Provider.of<ReviewProvider>(context, listen: false).addReview(review);
     Navigator.of(context).pop();
   }
 
