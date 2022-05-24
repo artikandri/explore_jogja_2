@@ -1,16 +1,22 @@
-# hello_world
+# Explore Jogja
 
-A new Flutter project.
+Mobile and Multimedia Systems Final Project
 
-## Getting Started
+## How to run
 
-This project is a starting point for a Flutter application.
+```
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+Screenshots: 
+![home](screenshots/home.png)
+![home_indonesia](screenshots/home_indonesia.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![list](screenshots/list.png)
+![detail](screenshots/detail.png)
+![detail](screenshots/detail_map.png)
+![detail](screenshots/detail_review.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![review](screenshots/add_review.png)
+
+

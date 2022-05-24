@@ -5,7 +5,12 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Hello World</string>
+	<string>Sharing Data Between Screens</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>id</string>
+    </array>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +18,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>explorejogja2</string>
+	<string>jogja</string>
 <key>CFBundleDisplayName</key>
-<string>explorejogja2</string>
+<string>explorejogja</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

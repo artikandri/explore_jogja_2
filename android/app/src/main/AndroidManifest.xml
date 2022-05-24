@@ -1,9 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.explorejogja2">
+    package="com.argi.jogja">
+   <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="explorejogja2"
+        android:label="ExploreJogja"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+
+        <!-- TODO: Add your Google Maps API key here -->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyBxaYoHu3Qlg74RPIhJ0T-UUAic6vUkdGU"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
